@@ -1,0 +1,23 @@
+{
+  "installation": {
+    "version": "22.6.4",
+    "plugins": {
+      "@nx/dotnet": "22.6.4"
+    }
+  },
+  "analytics": true,
+  "plugins": [
+    "@nx/dotnet"
+  ],
+  "namedInputs": {
+    "default": [
+      "{projectRoot}/**/*"
+    ],
+    "production": [
+      "default",
+      "!{projectRoot}/**/*.Tests/**/*",
+      "!{projectRoot}/**/bin/**/*",
+      "!{projectRoot}/**/obj/**/*"
+    ]
+  }
+}
