@@ -4,7 +4,7 @@ using Avalonia.Markup.Xaml;
 using Avalonia.MusicStore.ViewModels;
 using Avalonia.MusicStore.Views;
 
-//test
+//test1
 namespace Avalonia.MusicStore
 {
     public partial class App : Application
