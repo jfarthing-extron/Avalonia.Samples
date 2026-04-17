@@ -19,5 +19,6 @@
       "!{projectRoot}/**/bin/**/*",
       "!{projectRoot}/**/obj/**/*"
     ]
-  }
+  },
+  "nxCloudId": "69ce75d84b3937b7e706011a"
 }
